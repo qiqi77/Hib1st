@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="F:\cs" version="1.7.0_51">
+<bootpath>
+<entry path="F:\cs\jre\lib\resources.jar"/>
+<entry path="F:\cs\jre\lib\rt.jar"/>
+<entry path="F:\cs\jre\lib\sunrsasign.jar"/>
+<entry path="F:\cs\jre\lib\jsse.jar"/>
+<entry path="F:\cs\jre\lib\jce.jar"/>
+<entry path="F:\cs\jre\lib\charsets.jar"/>
+<entry path="F:\cs\jre\lib\jfr.jar"/>
+<entry path="F:\cs\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="F:\cs\jre\lib\ext"/>
+<entry path="C:\windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="F:\cs\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>
