@@ -1,0 +1,27 @@
+显示提示的方法：
+hibernate.jar -> org.hibernate -> 最下面有两个dtd文件。（规范能写什么、不能写什么） 选择 hibernate-configuration.dtd -> 复制前端的<!DOCTYPE>内容
+
+jdbc.jar -> orcle.jdbc.s
+
+方言：
+hibernage3.jar -> org.hibernate.dialect -> 
+
+【Hibernate几个核心API】：
+经常用到的接口、类、方法
+Session 会话：和数据库的一次沟通。（hibernate场合中是这个意思） （用户会话 指 HttpSession）
+创建连接、执行语句、缓存、
+
+Session Factory 会话工厂：用于创建会话。
+
+Configuration接口：用于创建 Session Factory。Configuration任务是读配置文件。
+
+hibernate.cfg.xml配置文件->Configuration读配置文件 -> 创建会话工厂 -> Session Factory创建会话
+
+【持久化类（PO）】：persistent object
+和数据表 相对应的类。
+
+【OID】：对象标识符
+
+【Hibernate映射类型】：int,string
+Java和DB中的类型是 多对多的，为了简化，
+
